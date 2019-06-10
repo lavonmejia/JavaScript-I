@@ -25,7 +25,7 @@ const intern1 = {"id": 1,"email": "mmelloy0@psu.edu","name": "Mitzi","gender": "
 const intern2 = {"id": 2,"email": "kdiben1@tinypic.com","name": "Kennan","gender": "M"}
 const intern3 = {"id": 3,"email": "kmummery2@wikimedia.org","name": "Keven","gender": "M"}
 const intern4 = {"id": 4,"email": "gmartinson3@illinois.edu","name": "Gannie","gender": "M"}
-const intern5 = {"id": 5,"email": "adaine5@samsung.com","name": "Antonietta","gender": "F"}
+const intern5 = {"id": 5,"email": "adaine5@samsung.com","name": "Antonietta","gender": "F", multiplyNums (num1, num2) { return num1 * num2}}
 
 
 
@@ -58,9 +58,7 @@ intern2.speak = () => {console.log("Hello, my name is Kennan!")}
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
 
-
-intern5.multiplyNums = (num1 * num2) => {console.log ("Antonietta knows that" num1 "multiplied by" num2 "produces" intern5.multiplyNums) ; }
-
+console.log(antonietta.multiplyNums(3,4));
 
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
@@ -75,9 +73,6 @@ intern5.multiplyNums = (num1 * num2) => {console.log ("Antonietta knows that" nu
 // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
-const parent = {
-  
-}
 
 // Log the parent object's name
 

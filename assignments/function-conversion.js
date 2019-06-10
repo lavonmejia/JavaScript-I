@@ -74,3 +74,4 @@ console.log(triple);
 
 const triple = exampleArray.map(num => num * 3);
 
+
